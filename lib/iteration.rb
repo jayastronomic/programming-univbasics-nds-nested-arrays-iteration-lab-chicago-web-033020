@@ -1,3 +1,6 @@
+
+
+
 def join_ingredients(src)
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
@@ -6,6 +9,29 @@ def join_ingredients(src)
   #
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ # array_1 = [
+    ["pepperoni", "sausage"],
+    ["green olives", "green peppers"],
+    ["onions", "pineapple"]
+    ]
+    
+#   new_array = [ 
+#      "I love #{array_1[0][0]} and #{array_1[0][1]} on my pizza",
+#     "I love #{array_1[1][0]} and #{array_1[1][1]} on my pizza",
+#      "I love #{array_1[2][0]} and #{array_1[2][1]} on my pizza"
+#    ] 
+      
+    
+      
 end
 
 def find_greater_pair(src)
