@@ -21,19 +21,16 @@ array
  
  
  
- array_1 = [
-    ["pepperoni", "sausage"],
-    ["green olives", "green peppers"],
-    ["onions", "pineapple"]
-    ]
+#   ["pepperoni", "sausage"],
+#    ["green olives", "green peppers"],
+#    ["onions", "pineapple"]
+ #   ]
     
-  new_array = [ 
-      "I love #{array_1[0][0]} and #{array_1[0][1]} on my pizza",
-     "I love #{array_1[1][0]} and #{array_1[1][1]} on my pizza",
-      "I love #{array_1[2][0]} and #{array_1[2][1]} on my pizza"
+ # new_array = [ 
+ #     "I love #{array_1[0][0]} and #{array_1[0][1]} on my pizza",
+ #    "I love #{array_1[1][0]} and #{array_1[1][1]} on my pizza",
+#      "I love #{array_1[2][0]} and #{array_1[2][1]} on my pizza"
     ] 
-      
-    
       
 end
 
