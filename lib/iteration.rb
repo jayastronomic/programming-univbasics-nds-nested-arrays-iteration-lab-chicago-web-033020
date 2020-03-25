@@ -15,7 +15,17 @@ array
 end
 
 def find_greater_pair(src)
-  
+    row = 0
+  array = []
+  while row < src.length do
+    if src[row][0] > src[row][1]
+      array.push(src[row][0])
+    else
+      array.push(src[row][1])
+    end
+      row += 1
+  end
+  array
   
  
 def total_even_pairs(src)
