@@ -2,18 +2,15 @@
 
 
 def join_ingredients(src)
-  # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
-  #
-  # Build a new Array that contains strings where each pair of foods is
-  # inserted into this template:
-  #
-  # "I love (inner array element 0) and (inner array element 1) on my pizza""
-  # As such, there should be a new String for each inner array, or pair
-  
+
  row = 0
+ 
   array = []
+  
   while row < src.length do
+    
     array.push("I love #{src[row][0]} and #{src[row][1]} on my pizza")
+    
     row += 1
   end
 
@@ -30,7 +27,7 @@ array
  #     "I love #{array_1[0][0]} and #{array_1[0][1]} on my pizza",
  #    "I love #{array_1[1][0]} and #{array_1[1][1]} on my pizza",
 #      "I love #{array_1[2][0]} and #{array_1[2][1]} on my pizza"
-    ] 
+  #  ] 
       
 end
 
